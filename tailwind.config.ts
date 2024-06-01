@@ -11,12 +11,17 @@ const config: Config = {
     extend: {
       keyframes: {
         scroll: {
-          "0%" : { transform: 'translateX(100%)' },
-          "1000%" : { transform: 'translateX(-50%)' },
+          "0%" : { transform: 'translateX(0%)' },
+          "100%" : { transform: 'translateX(-50%)' },
+        },
+        marki: {
+          "0%": { transform: 'translateX(0%)' },
+          "100%": { transform: 'translateX(-100%)' },
         },
       },
       animation: {
         scroll: 'scroll 50s linear infinite',
+        marki: 'marki 50s linear infinite',
       },
       filter: {
         "grayscale": "grayscale(100%)",
@@ -40,7 +45,8 @@ const config: Config = {
           90: '#141414',
         },
         orange: {
-          50: '#FF814C',
+          50: '#C4684A',
+          100: '#A6573E',
         },
         blue: {
           70: '#021639',

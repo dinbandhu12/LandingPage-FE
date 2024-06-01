@@ -3,6 +3,7 @@ import FeatureSection from "@/components/FeatureSection";
 import Hero from "@/components/Hero";
 import Logo from "@/components/Logo";
 import MoreFeatureSection from "@/components/MoreFeatureSection";
+import Review from "@/components/Review";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FeatureSection />
       <MoreFeatureSection />
       <About />
+      <Review />
     
     </>
   );
